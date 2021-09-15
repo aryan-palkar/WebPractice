@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/featured/?landscape");
+}
+
+.container{
+    max-width: 400px;
+    width: 100%;
+    background-color:rgba(22, 22, 22, 0.589);
+    padding: 1rem;
+    border-radius: 20px;
+    color: white;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.search-box{
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 13px;
+    margin: 0;
+    width: calc(100% - 40px);
+    max-width: 200px;
+    margin-right: 10px;
+    border: 0;
+    padding: 0.2rem 0 0.2rem 0.6rem;
+}
+
+.search-button{
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 50%;
+    border: 0;
+    height: 36px;
+    width: 36px;
+    color: white;
+    padding: 0.rem;
+    outline: none;
+}
+
+.search-button:hover{
+    background-color: burlywood;
+}
+
+.city{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.temp-area{
+    display: flex;
+    align-items: center;
+}
+
+.temperature{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
